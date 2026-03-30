@@ -20,12 +20,11 @@
     --semantic-error: #DC2626;
     
     --font-family-schoolbell: "Schoolbell", cursive;
-    --text-logo: 400 20px/100% var(--font-family-schoolbell);
+    --text-logo: 400 1.25rem/100% var(--font-family-schoolbell);
     --font-family-poppins: "Poppins", sans-serif;
-    --text-h1: 600 40px/125% var(--font-family-poppins);
-    --text-h2: 600 24px/125% var(--font-family-poppins);
-    --text-h3: 600 16px/125% var(--font-family-poppins);
-    --text-lg: 400 16px/150% var(--font-family-poppins);
-    --text: 400 16px/150% var(--font-family-poppins);
+    --text-heaging-lg: 600 2.5rem/125% var(--font-family-poppins);
+    --text-heaging-md: 600 1.5rem/125% var(--font-family-poppins);
+    --text-heaging-sm: 600 1rem/125% var(--font-family-poppins);
+    --text-md: 400 16px/150% var(--font-family-poppins);
     --text-sm: 400 14px/140% var(--font-family-poppins);
 }
