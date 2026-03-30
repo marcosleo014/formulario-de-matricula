@@ -28,3 +28,8 @@
     --text-md: 400 16px/150% var(--font-family-poppins);
     --text-sm: 400 14px/140% var(--font-family-poppins);
 }
+
+body {
+    font: var(--text-md);
+    color: var(--text-secondary);
+}

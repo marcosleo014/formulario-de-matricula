@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#container-main {
+    background-color: var(--surface-primary);
+    flex: 656 1 656px;
+}
+
+#container-aside {
+    background-color: var(--surface-secondary);
+    flex: 624 1 624px;
+}
