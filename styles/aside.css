@@ -1,0 +1,16 @@
+aside header h2 {
+    margin-block: 8px;
+    font: var(--text-heading-lg);
+    color: var(--text-primary);
+}
+
+#logo span {
+    font: var(--text-logo);
+    color: var(--text-primary);
+}
+
+aside>img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 32px;
+}

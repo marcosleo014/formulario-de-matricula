@@ -1,14 +1,25 @@
 body {
     display: flex;
-    flex-wrap: wrap-reverse;
 }
 
 #container-main {
     background-color: var(--surface-primary);
     flex: 656 1 656px;
+    main {
+        max-width: 656px;
+        margin-left: auto;
+        padding: 64px;
+    }
 }
 
 #container-aside {
     background-color: var(--surface-secondary);
     flex: 624 1 624px;
+    aside {
+        padding: 64px;
+        max-width: 624px;
+        position: sticky;
+        width: 100%;
+        top: 0;
+    }
 }

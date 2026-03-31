@@ -12,7 +12,7 @@
     --text-secondary: #57534E;
     --text-tertiary: #8F8881;
     --text-highlight: #E43A12;
-    --suface-primary: #FFFFFF;
+    --surface-primary: #FFFFFF;
     --surface-secondary: #FEE7D6;
     --surface-disabled: #E7E5E4;
     --stroke-default: #D6D3D1;
@@ -22,14 +22,29 @@
     --font-family-schoolbell: "Schoolbell", cursive;
     --text-logo: 400 1.25rem/100% var(--font-family-schoolbell);
     --font-family-poppins: "Poppins", sans-serif;
-    --text-heaging-lg: 600 2.5rem/125% var(--font-family-poppins);
-    --text-heaging-md: 600 1.5rem/125% var(--font-family-poppins);
-    --text-heaging-sm: 600 1rem/125% var(--font-family-poppins);
-    --text-md: 400 16px/150% var(--font-family-poppins);
-    --text-sm: 400 14px/140% var(--font-family-poppins);
+    --text-heading-lg: 600 2.5rem/125% var(--font-family-poppins);
+    --text-heading-md: 600 1.5rem/125% var(--font-family-poppins);
+    --text-heading-sm: 600 1rem/125% var(--font-family-poppins);
+    --text-md: 400 1rem/150% var(--font-family-poppins);
+    --text-sm: 400 0.875rem/140% var(--font-family-poppins);
 }
 
 body {
     font: var(--text-md);
     color: var(--text-secondary);
+}
+
+h1 {
+    font: var(--text-heading-md);
+    color: var(--text-primary);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+em {
+    color: var(--text-highlight);
+    font-style: normal;
 }
