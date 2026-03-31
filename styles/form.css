@@ -165,17 +165,16 @@ textarea {
 }
 
 .acceptTerms {
-    display: flex;
+    display: grid;
+    grid-template-columns: 24px 1fr;
     gap: 12px;
     cursor: pointer;
     input{
         display: none;
     }
-    span {
-        flex-basis: 492px;
-    }
     div {
-        flex-basis: 24px;
+        width: 24px;
+        height: 24px;
         background-image: url(../assets/icons/checkbox-default.svg);
         background-repeat: no-repeat;
     }
